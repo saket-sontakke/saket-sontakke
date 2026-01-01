@@ -329,13 +329,6 @@ const Portfolio = () => {
               <FaAward className="text-[#8c6b5d]" size={32} /> Certifications
           </h2>
           <div className="grid md:grid-cols-2 gap-6">
-            
-            <CertificationCard 
-              title="Presentation & Publication in MLIP-2025" 
-              issuer="Hinweis Research"
-              logo={hinweisLogo}
-              link={mlipPdf}
-            />
             <CertificationCard 
               title="Certificate of Presentation at T4E 2025" 
               issuer="EdTech Society"
@@ -363,6 +356,12 @@ const Portfolio = () => {
               code="NPTEL24CS118S952002286"
               logo={nptelLogo}
               link="https://archive.nptel.ac.in/content/noc/NOC24/SEM2/Ecertificates/106/noc24-cs118/Course/NPTEL24CS118S95200228604323102.pdf"
+            />
+            <CertificationCard 
+              title="Presentation & Publication in MLIP-2025" 
+              issuer="Hinweis Research"
+              logo={hinweisLogo}
+              link={mlipPdf}
             />
              <CertificationCard 
               title="Google AI Essentials" 
